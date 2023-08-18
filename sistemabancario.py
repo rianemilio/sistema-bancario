@@ -22,10 +22,10 @@ while True:
         if valor > 0:
             saldo += valor
             extrato += f"Depósito: R$ {valor:.2f} \n"
-            print("Valor Depositado com Sucesso")
+            print("Valor Depositado com Sucesso.")
         
         else:
-            print("O Valor Informado é Inválido")
+            print("O Valor Informado é Inválido.")
 
     elif opcao == "s":
         
@@ -33,12 +33,12 @@ while True:
         
         if numero_de_saques == limite_de_saques:
         
-            print("O Número Máximo de Saques foi alcançado \n")
+            print("O Número Máximo de Saques foi alcançado. \n")
         
         else:
             
             if saldo < valor:
-                print("Valor Insuficiente na conta \n") 
+                print("Valor Insuficiente na conta. \n") 
             
             else: 
                 
@@ -46,10 +46,10 @@ while True:
                     numero_de_saques += 1
                     extrato += f"Saque: R$ {valor:.2f} \n"
                     saldo -= valor
-                    print("Valor Sacado com Sucesso")
+                    print("Valor Sacado com Sucesso.")
                 
                 else: 
-                    print("O Valor Informado é Inválido \n")
+                    print("O Valor Informado é Inválido. \n")
 
     elif opcao == "e":
         print("\n--------Extrato--------")
@@ -62,4 +62,4 @@ while True:
         break
     
     else:
-        print("O Valor Informado é Inválido")
+        print("Selecione Novamente a Operação Desejada.")
