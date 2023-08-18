@@ -58,7 +58,7 @@ while True:
         print("-------------------------")
 
     elif opcao == "q":
-        print("O Programa Foi Encerrado \n")
+        print("O Programa Foi Encerrado. \n")
         break
     
     else:
